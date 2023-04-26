@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/map.jpg">
+    <title>Countries</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- Font awesome kit -->
+    <script src="https://kit.fontawesome.com/d1ffe73f18.js" crossorigin="anonymous"></script>
+    <!-- Css -->
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo">Countries
+            <img src="./images/earth2.png" alt="" class="img">
+        </div>
+        <ul class="links">
+            <li><a href="./index.html" style="color: goldenrod;">Home</a></li>
+            <li class="dropdown"><a href="./countries/usa.html" class="dropbtn">Countries</a>
+                <div class="dropdown-content">
+                    <a class="drp" href="./countries/usa.html">USA</a>
+                    <a class="drp" href="./countries/uae.html">UAE</a>
+                    <a class="drp" href="./countries/netherlands.html">Netherlands</a>
+                    <a class="drp" href="./countries/vn.html">Vietnam</a>
+                    <a class="drp" href="./countries/ph.html">Philippines</a>
+                    <a class="drp" href="./countries/tjk.html">Tajikistan</a>
+                </div>
+            </li>
+            <li><a href="./project/project.html">Projects</a></li>
+            <li><a href="./contact/contact.html">Contact</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </label>
+    <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+    </nav>
+
+    <main>
+    <section class="section1">
+        <h1 class="section1-text">Countries you should visit!</h1>
+        <div class="boxes">
+
+            <div class="box">
+                <a href="./countries/usa.html">
+                <div class="polaroid">
+                    <img src="./images/usa.jpg" alt="Osh" class="boximage">
+                    <div class="container">
+                        <div class="text1">USA</div>
+                    </div>
+                </div>
+            </a>
+            <h4 class="h4">Click to know more 👆</h4>
+            </div>
+            <div class="box">
+                <a href="./countries/uae.html">
+                <div class="polaroid">
+                    <img src="./images/uae.jpg" alt="Osh" class="boximage">
+                    <div class="container">
+                        <div class="text1">UAE</div>
+                    </div>
+                </div>
+            </a>
+            <h4 class="h4">Click to know more 👆</h4>
+            </div>
+
+            <div class="box">
+                <a href="./countries/netherlands.html">
+                <div class="polaroid">
+                    <img src="./images/netherlands.jpg" alt="Osh" class="boximage">
+                    <div class="container">
+                        <div class="text1">Netherlands</div>
+                    </div>
+                </div>
+            </a>
+            <h4 class="h4">Click to know more 👆</h4>
+            </div>
+            <div class="box">
+                <a href="./countries/vn.html">
+                <div class="polaroid">
+                    <img src="./images/vietnam.jpg" alt="Osh" class="boximage">
+                    <div class="container">
+                        <div class="text1">Vietnam</div>
+                    </div>
+                </div>
+            </a>
+            <h4 class="h4">Click to know more 👆</h4>
+            </div>
+            <div class="box">
+                <a href="./countries/ph.html">
+                <div class="polaroid">
+                    <img src="./images/Philippines.webp" alt="Osh" class="boximage">
+                    <div class="container">
+                        <div class="text1">Philippines</div>
+                    </div>
+                </div>
+            </a>
+            <h4 class="h4">Click to know more 👆</h4>
+            </div>
+            <div class="box">
+                <a href="./countries/tjk.html">
+                <div class="polaroid">
+                    <img src="./images/tjk1.jpg" alt="Osh" class="boximage">
+                    <div class="container">
+                        <div class="text1">Tajikistan</div>
+                    </div>
+                </div>
+            </a>
+            <h4 class="h4">Click to know more 👆</h4>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <section class="section2">
+        <div class="button-container">
+            <a href="./index.html"> 
+                <img src="./images/icons8-back-64.png" alt="btn" class="img-btn">
+            </a>
+            <div data-action="change">
+                <img class="map" src="./images/sun.png" alt="Earth">
+            </div>
+            <a href="./countries/usa.html" target="_blank">
+            <img src="./images/icons8-forward-64.png" alt="btn" class="img-btn">
+        </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright © <span id="current-year"></span> itsozod</p>
+        <a href="https://github.com/itsozod" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+    </footer>
+      <script src="index.js" defer></script>
+</body>
+</html>
