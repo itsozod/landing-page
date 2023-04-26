@@ -320,6 +320,7 @@ li.dropdown {
   }
   .img1:hover {
     transform: none;
+    box-shadow: 2px 2px 5px red;
   }
   .right {
     width: 70%;
