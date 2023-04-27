@@ -243,7 +243,7 @@ li.dropdown {
     align-items: center;
     flex-direction: column;
     height: 65vh;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .header {
     margin-top: 100px;
@@ -329,9 +329,6 @@ li.dropdown {
     opacity: 0.5;
 }
 @media screen and (max-width: 768px){
-  .section1 {
-    margin-top: 80px;
-  }
     .box  {
         width: 80%;
     }
@@ -362,6 +359,9 @@ li.dropdown {
     } 
 }
 @media screen and (max-width: 484px) {
+    .section1 {
+        margin-top: 70px;
+    }
     .polaroid:hover .container1 {
         transform: translateY(-200px);
         font-size: 30px;
