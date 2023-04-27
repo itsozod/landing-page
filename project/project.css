@@ -354,6 +354,9 @@ li.dropdown {
     }
 }
 @media screen and (max-width: 592px) {
+  .section1 {
+    margin-top: 50px;
+}
     .polaroid:hover .container1 {
         transform: translateY(-220px);
         font-size: 30px;
@@ -363,7 +366,7 @@ li.dropdown {
 }
 @media screen and (max-width: 484px) {
     .section1 {
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .polaroid:hover .container1 {
         transform: translateY(-200px);
@@ -373,6 +376,9 @@ li.dropdown {
     } 
 }
 @media screen and (max-width: 400px) {
+  .section1 {
+    margin-top: 20px;
+}
     .polaroid:hover .container1 {
         transform: translateY(-185px);
         font-size: 30px;
