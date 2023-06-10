@@ -219,7 +219,15 @@ li.dropdown {
         right: 80%;
     }
   }
-
+  /* MAIN */
+ main {
+  transform: translateY(-100%);
+  opacity: 0;
+  animation-name: slide-in;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  min-height: 100vh;
+}
    /* Section 1*/
   .section {
     position: relative;
@@ -344,26 +352,11 @@ li.dropdown {
   width: 20px;
  }
  }
-/* MAIN */
- main {
-  transform: translateY(-100%);
-  opacity: 0;
-  animation-name: slide-in;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
 @keyframes slide-in {
   0% { transform: translateY(-100%); opacity: 0;}
   100% {transform: translateY(0); opacity: 1;}    
 }
-  /* SECTION 2 */
-  .section2 {
-    width: 100%;
-    min-height: 40vh;
-    margin-top: 80px;
-    margin-bottom: -45px;
-  }
-
+/* Buttons container */
  .button-container  {
   display: flex;
   justify-content: space-between;

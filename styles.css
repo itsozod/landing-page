@@ -244,13 +244,11 @@ li.dropdown {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
   .box {
     width: 30%;
     margin: 20px;
     text-align: center;
   }
-  
   .box .polaroid {
     position: relative;
     display: inline-block;
@@ -258,7 +256,6 @@ li.dropdown {
     padding-bottom: 100%;
     /* Set the padding-bottom to create a square box */
   }
-  
   .box .boximage {
     position: absolute;
     top: 0;
@@ -268,7 +265,6 @@ li.dropdown {
     /* Set the width and height to fill the box */
     object-fit: cover;
   }
-  
   .box .container {
     position: absolute;
     bottom: 0;
@@ -276,14 +272,12 @@ li.dropdown {
     right: 0;
     /* Set the background color to create a white overlay */
   }
-  
   .box .text1 {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     margin: 10px;
   }
-  
   .h4 {
     margin-top: 10px;
     text-align: center;
@@ -380,7 +374,7 @@ li.dropdown {
       width: 80%;
     }
   }
-  /* SECTION2 */
+  /* Buttons container */
 .button-container  {
   display: flex;
   justify-content: space-between;
@@ -450,7 +444,6 @@ li.dropdown {
     margin-left: -5px;
   }
 }
-
   /* FOOTER */
   .footer {
     display: flex;
@@ -464,13 +457,11 @@ li.dropdown {
     font-size: 20px;
     background-color: black;
   }
-  
   .fa-github {
     color: #ddd;
     font-size: 24px;
     transition: transform 0.3s ease-in-out;
   }
-  
   .fa-github:hover {
     transform: rotate(360deg) scale(1.2);
   }
